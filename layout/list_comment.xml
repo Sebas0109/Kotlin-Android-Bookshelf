@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:layout_height="wrap_content" android:orientation="vertical">
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+
+
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp" tools:srcCompat="@tools:sample/avatars" android:id="@+id/imgUser"
+                android:layout_marginRight="20dp" android:layout_marginLeft="20dp"/>
+        <TextView
+                android:text="El libro es bueno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/palabras" android:textSize="11sp"/>
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginStart="20dp" android:layout_marginEnd="25dp" android:textSize="8sp"
+            android:text="loles"/>
+
+
+</LinearLayout>

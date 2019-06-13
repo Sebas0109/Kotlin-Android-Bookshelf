@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <group>
+
+        <item android:id="@+id/nav_books" android:title="@string/nav_books" android:icon="@drawable/ic_book"/>
+
+        <item android:id="@+id/nav_favorites" android:title="@string/nav_favorites" android:icon="@drawable/ic_fav_white"/>
+
+        <item android:id="@+id/nav_scan" android:title="@string/nav_scan" android:icon="@drawable/ic_scan"/>
+
+    </group>
+
+    <item android:title="@string/nav_other">
+        <menu>
+            <item android:id="@+id/nav_profile" android:title="@string/nav_profile" android:icon="@drawable/ic_person"/>
+        </menu>
+    </item>
+    </group>
+
+</menu>
